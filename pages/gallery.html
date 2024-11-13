@@ -5,17 +5,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Noodles Fansite</title>
+  <link href="../style.css" rel="stylesheet"/>
 </head>
 <body>
   <header>
     <hi>Noodles Fansite!</hi>
     <nav>
-      <ul>
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="facts.html">Fun Facts</a></li>
-      </ul>
-    </nav>
+      <header class="topnav">
+        <a href="../index.html">Home</a></li>
+        <a class = "active">Gallery</a>
+        <a href="facts.html">Fun Facts</a>
+      </header>
+      </nav>
   </header>
   <main>
     <header id="noodle_soup_gallery_list">
@@ -283,8 +284,13 @@
           </article>
   </main>
   <footer>
-    <p>Created by Adies, last updated Nov. 2024</p>
-    <p>copyright &copy; Madeline, Denise, Madina, Leidy 2024. All rights reserved. Made with love.</p>
+    <nav>
+      <ul>
+        <li><a href="#">about</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+    </nav>
+    <p id= footer-text>copyright &copy;2024 Created by Adies: Madeline, Denise, Madina, & Leidy. All rights reserved. Made with love.</p>  </footer>
   </footer>
 </body>
 </html>
