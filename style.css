@@ -42,6 +42,12 @@ footer{
     text-align: center;
     width: 100%;
 }
+
+
+.bottom-nav a{
+    padding-left: 15px;
+    padding-right: 15px;
+}
 footer .footer-text{
     color:gray
 }
