@@ -4,7 +4,7 @@ ul{
 }
 
 .topnav {
-    background-color: black;
+    background-color: rgb(130, 108, 132);
     overflow:hidden;
 }
 
@@ -26,16 +26,22 @@ ul{
     color:blue;
 }
 
-body{
-    position:relative;
+.page-container {
+    position: relative;
+    min-height: 100vh
 }
 
+.content-wrap {
+    padding-bottom: 6rem;
+}
 footer{
     background-color: pink;
     position:absolute;
+    bottom: 0;
+    height:6rem;
     text-align: center;
     width: 100%;
 }
-footer #footer-text{
+footer .footer-text{
     color:gray
 }
