@@ -7,3 +7,15 @@ body {
     width: 75;
     height: 120;
 }
+
+.four-noodle-container ul{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    padding:10px;
+}
+
+.three-noodle-container ul{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
