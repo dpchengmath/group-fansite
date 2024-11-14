@@ -4,33 +4,51 @@ ul{
 }
 
 .topnav {
-    background-color: black;
+    background-color:#bc9763;
     overflow:hidden;
-}
+    width:100%;
+    top:0;}
 
 .topnav a{
     float: left;
-    color: #f2f2f2;
+    color: #5f4221;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .topnav a:hover{
-    background-color: gray;
-    color:blue;
+    background-color: #969279;
+    color:#5f4221;
 }
 
 .topnav a.active{
-    background-color: pink;
-    color:blue;
+    background-color:#5f4221;
+    color:#e4dfc1;
 }
 
+.page-container {
+    position: relative;
+    min-height: 100vh
+}
+
+.content-wrap {
+    padding-bottom: 6rem;
+}
 footer{
-    background-color: pink;
-    position: absolute;
+    background-color: #bc9763;
+    position:absolute;
     bottom: 0;
+    height:6rem;
     text-align: center;
     width: 100%;
+}
 
+
+.bottom-nav a{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+footer .footer-text{
+    color:#5f4221;
 }
