@@ -35,6 +35,7 @@ ul{
 .content-wrap {
     padding-bottom: 6rem;
 }
+
 footer{
     background-color: #bc9763;
     position:absolute;
@@ -44,11 +45,12 @@ footer{
     width: 100%;
 }
 
-
 .bottom-nav a{
     padding-left: 15px;
     padding-right: 15px;
 }
+
 footer .footer-text{
-    color:#5f4221;
+    color:#636363; 
+    text-align: center;   
 }
