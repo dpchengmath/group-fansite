@@ -10,3 +10,13 @@ p {
     color:white;
     background-color:blueviolet
 }
+
+#meet-the-team img{
+    width: 100px;
+    height: 100px;
+}
+
+#team-container {
+    display:flex;
+    flex-flow: row wrap
+}
