@@ -12,6 +12,7 @@ body {
     display:grid;
     grid-template-columns: auto auto auto auto;
     padding:10px;
+    border-bottom: 5px solid dotted white;
 }
 
 .three-noodle-container ul{
