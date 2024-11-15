@@ -2,12 +2,9 @@
     font-family: 'Noodle';
     src: url('../assets/noodle-regular.ttf') format('truetype');
     font-weight: normal;
-    font-style: normal;
-  }
-  
-  body {
-    font-family: 'MyCoolFont', sans-serif;  /* Apply the custom font */
-  }  
+    font-style: normal;}
+
+
 
 body {
     background-color: black;
@@ -22,12 +19,13 @@ body {
 .four-noodle-container ul{
     display:grid;
     grid-template-columns: auto auto auto auto;
-    padding:10px;
+    justify-items: center;
     border-bottom: 5px solid dotted white;
+
 }
 
 body {
-    cursor:url(../assets/noodle-cursor.cur),auto ;
+    cursor:url(../assets/noodle-cursor.cur),pointer;
 }
 
 h1 {
@@ -45,3 +43,4 @@ h2 {
     font-size: 50px;
     margin-bottom: 0px; 
 }
+

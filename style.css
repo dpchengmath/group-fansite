@@ -1,4 +1,9 @@
 
+body {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 ul{
     list-style-type: none;
 }
@@ -19,17 +24,17 @@ ul{
 
 .topnav a:hover{
     background-color: #969279;
-    color:#5f4221;
+    color:#ffffff;
 }
 
 .topnav a.active{
     background-color:#A63411;
-    color:#e4dfc1;
+    color:#ffffff;
 }
 
 .page-container {
     position: relative;
-    min-height: 100vh
+    min-height: 100vh;
 }
 
 .content-wrap {
@@ -46,15 +51,17 @@ footer{
     height:6rem;
     text-align: center;
     width: 100%;
+    padding-top:15px;
 }
+
 
 .bottom-nav a{
     color: white;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
-
-
 
 footer .footer-{
     color:white; 
