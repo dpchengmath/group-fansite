@@ -24,10 +24,6 @@ body {
 
 }
 
-body {
-    cursor:url(../assets/noodle-cursor.cur),pointer;
-}
-
 h1 {
     font-family: 'Noodle';
     font-size: 100px;
