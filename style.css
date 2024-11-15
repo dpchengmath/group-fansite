@@ -38,7 +38,7 @@ ul{
 
 footer{
     background-color: #bc9763;
-    position:absolute;
+    /* position:absolute; */
     bottom: 0;
     height:6rem;
     text-align: center;
@@ -54,3 +54,5 @@ footer .footer-text{
     color:#636363; 
     text-align: center;   
 }
+
+
