@@ -4,14 +4,14 @@ ul{
 }
 
 .topnav {
-    background-color:#bc9763;
+    background-color:goldenrod;
     overflow:hidden;
     width:100%;
     top:0;}
 
 .topnav a{
     float: left;
-    color: #5f4221;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -37,7 +37,7 @@ ul{
 }
 
 footer{
-    background-color: #bc9763;
+    background-color: goldenrod;
     position:absolute;
     bottom: 0;
     height:6rem;
@@ -51,6 +51,6 @@ footer{
 }
 
 footer .footer-text{
-    color:#636363; 
+    color:white; 
     text-align: center;   
 }
