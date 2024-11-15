@@ -4,27 +4,34 @@ body {
     background-position: bottom 100px right;
     background-repeat: no-repeat;
     background-color: #070300;
-    background-position: right bottom;
     color:white;
 }
 p {
     color:white;
 }
+
+
+
+
 #meet-the-team h1{
     display: flex;
+    text-size-adjust: 100%;
     justify-content: center;
 }
+
 
 .team-member h6{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    font-size: 40px;
+    padding: 0;
 }
 
 .team-member img{
     display:flex;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     justify-content: center;
     align-items: flex-start;
 }
@@ -33,3 +40,4 @@ p {
     display:flex;
     justify-content: center;
 }
+
