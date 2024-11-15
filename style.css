@@ -1,17 +1,22 @@
 
+body {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 ul{
     list-style-type: none;
 }
 
 .topnav {
-    background-color:#bc9763;
+    background-color:goldenrod;
     overflow:hidden;
     width:100%;
     top:0;}
 
 .topnav a{
     float: left;
-    color: #5f4221;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -19,17 +24,17 @@ ul{
 
 .topnav a:hover{
     background-color: #969279;
-    color:#5f4221;
+    color:#ffffff;
 }
 
 .topnav a.active{
-    background-color:#5f4221;
-    color:#e4dfc1;
+    background-color:#A63411;
+    color:#ffffff;
 }
 
 .page-container {
     position: relative;
-    min-height: 100vh
+    min-height: 100vh;
 }
 
 .content-wrap {
@@ -37,22 +42,30 @@ ul{
 }
 
 footer{
-    background-color: #bc9763;
-    /* position:absolute; */
+    display: grid;
+    place-items: center;
+    margin-bottom: 0px; 
+    background-color: goldenrod;
+    position:absolute;
     bottom: 0;
     height:6rem;
     text-align: center;
     width: 100%;
+    padding-top:15px;
 }
+
 
 .bottom-nav a{
-    padding-left: 15px;
-    padding-right: 15px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
 
-footer .footer-text{
-    color:#636363; 
-    text-align: center;   
+footer .footer-{
+    color:white; 
+    text-align: center; 
 }
 
 
