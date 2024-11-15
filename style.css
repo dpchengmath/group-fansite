@@ -23,7 +23,7 @@ ul{
 }
 
 .topnav a.active{
-    background-color:#5f4221;
+    background-color:#A63411;
     color:#e4dfc1;
 }
 
@@ -37,6 +37,9 @@ ul{
 }
 
 footer{
+    display: grid;
+    place-items: center;
+    margin-bottom: 0px; 
     background-color: goldenrod;
     position:absolute;
     bottom: 0;
@@ -46,11 +49,12 @@ footer{
 }
 
 .bottom-nav a{
+    color: white;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-footer .footer-text{
+footer .footer-{
     color:white; 
-    text-align: center;   
+    text-align: center; 
 }
